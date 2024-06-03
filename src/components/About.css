@@ -1,0 +1,9 @@
+section {
+    padding: 2em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+section:hover {
+    background-color: #0c1e39;
+}

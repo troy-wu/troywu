@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a192f;
+  color: #dfbcbc;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+h1, h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #ffffff
+}
+
+header, nav, section, footer {
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: #d8cfcf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6f61;
+}
+
+/* Add some basic spacing to sections */
+section {
+  padding: 2em;
+}
+
+/* Add some styling to the nav links */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 1em 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #3f72af;
+}
+
+nav ul li a:hover {
+  color: #112d4e;
+}
+
+header {
+  background-color: #dbe2ef;
+  color: #112d4e;
+  text-align: center;
+  padding: 2em 0;
+}
+
+footer {
+  background-color: #dbe2ef;
+  color: #112d4e;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* Add some hover effects for sections */
+section:hover {
+  background-color: #0c1e39;
+  border: 0px solid #ccc;
+}
