@@ -1,13 +1,14 @@
 .status-bar {
-    background-color: #3f72af;
+    background-color: #0a192f;
     color: #f9f7f7;
     padding: 0.5em 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     display: flex;
+    justify-content: center; /* Center content horizontally */
     align-items: center;
     height: 2em;
-    font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; /* Center the status bar itself if needed */
 }
 
 .cursor {

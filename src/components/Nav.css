@@ -1,21 +1,56 @@
-nav ul {
-    background-color: #0a192f;
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #0d243d; /* Background color for the nav bar */
+    color: #f9f7f7; /* Text color */
+    padding: 0 0; /* Reduced padding to make it shorter */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
     list-style: none;
+    margin: 2em;
     padding: 0;
-    text-align: center;
-    margin: 1em 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+  }
+  
+  nav ul h1 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-right: 1em; /* Add some space between the title and the buttons */
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    display: block; /* Make the link fill the li */
+    padding: 0.5em 0; /* Adjusted padding to match the nav height */
+    font-size: 1.2em; /* Increase font size */
+    color: #f9f7f7;
+    text-decoration: none;
     font-weight: bold;
-    color: #3f72af;
-}
-
-nav ul li a:hover {
-    color: #112d4e;
-}
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6f61;
+  }
+  
+  nav ul h1 a {
+    color: #f9f7f7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  nav ul h1 a:hover {
+    color: #f9f7f7;
+    transform: scale(1.1);
+  }
+  

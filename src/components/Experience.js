@@ -1,9 +1,9 @@
 import React from 'react';
-import './Projects.css';
+import './Experience.css';
 
-const Projects = () => (
-  <section id="projects">
-    <h2>Projects</h2>
+const Experience = () => (
+  <section id="experience">
+    <h2>Experience</h2>
     <ul>
       <li>Project 1: Description of project 1.</li>
       <li>Project 2: Description of project 2.</li>
@@ -12,4 +12,4 @@ const Projects = () => (
   </section>
 );
 
-export default Projects;
+export default Experience;
